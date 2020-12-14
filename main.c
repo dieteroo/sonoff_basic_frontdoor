@@ -147,7 +147,7 @@ homekit_accessory_t *accessories[] = {
     HOMEKIT_ACCESSORY(.id=1, .category=homekit_accessory_category_switch, .services=(homekit_service_t*[]){
         HOMEKIT_SERVICE(ACCESSORY_INFORMATION, .characteristics=(homekit_characteristic_t*[]){
             &name,
-            HOMEKIT_CHARACTERISTIC(MANUFACTURER, "iTEAD"),
+            HOMEKIT_CHARACTERISTIC(MANUFACTURER, "dieteroo"),
             HOMEKIT_CHARACTERISTIC(SERIAL_NUMBER, "82603000ED"),
             HOMEKIT_CHARACTERISTIC(MODEL, "Basic"),
             HOMEKIT_CHARACTERISTIC(FIRMWARE_REVISION, "0.1.6"),
@@ -166,7 +166,7 @@ homekit_accessory_t *accessories[] = {
 
 homekit_server_config_t config = {
     .accessories = accessories,
-    .password = "647-13-001"
+    .password = "647-18-046"
 };
 
 void on_wifi_ready() {
